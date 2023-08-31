@@ -1,0 +1,9 @@
+nav {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.active {
+    font-weight: bold;
+}
