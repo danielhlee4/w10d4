@@ -1,10 +1,13 @@
 import harvardArt from "./data/harvardArt";
 import GalleryNavigation from "./components/GalleryNavigation";
 
-function App() {
+const App = (props) => {
+  // const galleryList = harvard.map((gallery) => {
+  //   return <GalleryNavigation banana={gallery.galleryid} />
+  // })
   return (
-    <GalleryNavigation/>
+    <GalleryNavigation galleries={harvardArt.records} />
   )
 }
 
-  export default App;
+export default App;
